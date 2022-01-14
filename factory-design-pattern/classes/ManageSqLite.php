@@ -1,5 +1,5 @@
 <?php
-   class ManageMSQL{
+   class ManageSqLite{
        public function setHost($host){
           // code here
        }
@@ -14,6 +14,10 @@
 
        public function setpass($pass){
         // code here
+       }
+
+       public function connect(){
+         // connection code here
        }
    }
 ?>
